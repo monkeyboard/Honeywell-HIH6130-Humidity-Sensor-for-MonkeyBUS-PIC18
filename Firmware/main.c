@@ -552,7 +552,7 @@ int main(void)
 #endif
 {   
 	unsigned short humidity;
-	signed temperature;
+	short temperature;
     InitializeSystem();
 
     #if defined(USB_INTERRUPT)
